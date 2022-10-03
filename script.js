@@ -12,6 +12,7 @@ var numbers = "1234567890";
 var speical = "!@#$%^&*()<>?/{}[]+-=-_.,:;'?/|";
 
 var chosen = ""
+// for randompassword generator 
 var randomPassword = ""
 
 // password length to confirm the characters
