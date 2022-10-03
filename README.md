@@ -30,7 +30,7 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
 # Mock-Up
-![](mockup%20pic%20.png)
+![](pictures/mockup%20pic%20.png)
 
 # Example 
-![](exampple.png)
+![](pictures/exampple.png)
