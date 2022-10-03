@@ -2,29 +2,24 @@
 var generateBtn = document.querySelector("#generate");
 
 function generatePassword (){
+// assign lowerCase 
+var lowerCase = "abcdefghijklmnopqrstuvwxyz";
+// assign upperCase
+var upperCase = lowerCase.toUpperCase();
+// assign numbers
+var numbers = "1234567890";
+// assign special character 
+var speical = "!@#$%^&*()<>?/{}[]+-=-_.,:;'?/|";
 
-// data
-// we need different sets of characters 
-
-//numbers 
-//lowercase
-//uppercase
-//special characters
-// number of characters 
-// whether they chose number, lowercasem uppercase, or speucal characters
-
-// how many characters do you want to use 
-//do you want to use numbers ? yes or no 
-//do you want to use lowercase ? yes or no 
-//do you want to use uppercase ? yes or no 
-//do you want to use character ? yes or no  
+var chosen =""
 
 
-// put the selected characters together 
+var passwordLength = parseInt(prompt("password length (between 8 to 128 characters) ?"));
+if (passwordLength < 8 || passwordLength > 128){
+ alert("please try again "); 
+return 
+}
 
-// randsomly sleect characters from all of the selected characters 
-
-// put them together 
 
 return "password"
 }
