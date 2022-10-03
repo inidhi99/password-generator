@@ -33,5 +33,4 @@ THEN the password is either displayed in an alert or written to the page
 ![](pictures/mockup%20pic%20.png)
 
 # Example 
-10 character long password 
 ![](pictures/exampple.png)
